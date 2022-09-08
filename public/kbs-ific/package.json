@@ -1,0 +1,26 @@
+{
+  "name": "kbs-ific",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.5",
+    "swiper": "^8.2.4",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "bootstrap": "^4.6.1",
+    "jquery": "^3.6.0",
+    "node-sass": "^6.0.1",
+    "popper.js": "^1.16.1",
+    "sass": "^1.52.3",
+    "sass-loader": "^10.2.1",
+    "vite": "^2.9.12"
+  }
+}

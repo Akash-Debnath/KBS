@@ -1,0 +1,32 @@
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+}
+
+.pagination li {
+    padding: 8px;
+    background-color: floralwhite;
+}
+
+.pagination li a{
+    text-decoration: none;
+}
+
+.page-link{
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #99238D;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.page-link:focus{
+    z-index: 2;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+}
