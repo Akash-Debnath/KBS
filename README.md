@@ -3,12 +3,12 @@
 ### 1. Clone the repo to htdocs or www folder
 
 ```
-git clone gslgit@192.168.10.63:/home/gslgit/ccKnowledgeBase.git
+git clone https://github.com/Akash-Debnath/KBS.git
 ```
 
 ### 2. go to the directory 
 ```
-cd ccKnowledgeBase/kbs2.1
+cd KBS
 ```
 
 ### 3. Install Composer
@@ -64,7 +64,7 @@ php artisan passport:install
 
 ## 9. From Browser
 ```html
-http://localhost/ccKnowledgeBase/public
+http://localhost/KBS/public
 ```
 
 ### 10. From Postman ### post request
